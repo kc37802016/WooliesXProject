@@ -66,13 +66,13 @@ public class NavigationSteps extends Runner {
 
     @When("^I send \"([^\"]*)\" HTTP request and validate the response status code \"([^\"]*)\"$")
     public void iSendHTTPRequestAndValidateTheResponseStatusCode(String RequestType, String StatusCode) throws Throwable {
-        System.out.println("STEP - I Send HTTP request and validate the response status code"+"\n");
+        System.out.println("STEP - I Send HTTP request "+RequestType+" and validate the response status code "+StatusCode+"\n");
         goRestAPI.resSpec(RequestType, StatusCode);
     }
 
     @Then("^I validate JSON Schema for the \"([^\"]*)\" request and Status Code \"([^\"]*)\"$")
     public void iValidateJSONSchemaForTheRequestAndStatusCode(String RequestType, String StatusCode) throws Throwable {
-        System.out.println("STEP - Set Get data service endpoint API"+"\n");
+        System.out.println("STEP - I validate JSON Schema for the "+RequestType+" request and Status Code "+StatusCode+"\n");
         goRestAPI.jsonSchemaValidator(RequestType, StatusCode);
     }
 }

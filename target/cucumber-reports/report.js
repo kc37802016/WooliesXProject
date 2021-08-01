@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 189537800,
+  "duration": 45209100,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,7 +43,7 @@ formatter.match({
   "location": "NavigationSteps.iSetGetDataServiceEndpointAPI()"
 });
 formatter.result({
-  "duration": 3242087800,
+  "duration": 2414715400,
   "status": "passed"
 });
 formatter.match({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "NavigationSteps.iSendHTTPRequestAndValidateTheResponseStatusCode(String,String)"
 });
 formatter.result({
-  "duration": 6453342300,
+  "duration": 6496143000,
   "status": "passed"
 });
 formatter.match({
@@ -77,11 +77,11 @@ formatter.match({
   "location": "NavigationSteps.iValidateJSONSchemaForTheRequestAndStatusCode(String,String)"
 });
 formatter.result({
-  "duration": 2122775700,
+  "duration": 2580696000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4199700,
+  "duration": 6218700,
   "status": "passed"
 });
 formatter.uri("Woolworths_Life_Insurance.feature");
@@ -93,7 +93,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10665300,
+  "duration": 3648400,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,14 +168,14 @@ formatter.match({
   "location": "BrowserSteps.i_start_the_web_browser()"
 });
 formatter.result({
-  "duration": 7425850900,
+  "duration": 7344246300,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigationSteps.iOpenWoolworthsInsuranceHomePage()"
 });
 formatter.result({
-  "duration": 6166270800,
+  "duration": 5654084100,
   "status": "passed"
 });
 formatter.match({
@@ -196,7 +196,7 @@ formatter.match({
   "location": "NavigationSteps.iNavigateToAndThenToAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 5886533200,
+  "duration": 5541388300,
   "status": "passed"
 });
 formatter.match({
@@ -209,14 +209,14 @@ formatter.match({
   "location": "NavigationSteps.iClickTermsCheckboxAndClickOn(String)"
 });
 formatter.result({
-  "duration": 4066434700,
+  "duration": 3468341000,
   "status": "passed"
 });
 formatter.match({
   "location": "QuoteSteps.iEnterTheDetailsInAboutYouSection(DataTable)"
 });
 formatter.result({
-  "duration": 11512452300,
+  "duration": 11336742200,
   "status": "passed"
 });
 formatter.match({
@@ -229,11 +229,11 @@ formatter.match({
   "location": "QuoteSteps.iVerifyCoverAmountsAreIn(String)"
 });
 formatter.result({
-  "duration": 3397513800,
+  "duration": 3583985200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1367617000,
+  "duration": 1286114900,
   "status": "passed"
 });
 });
